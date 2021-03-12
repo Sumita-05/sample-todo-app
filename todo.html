@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body{
+            background-image: linear-gradient(yellow,pink);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+
+        #todoBox{
+            border: 1px solid black;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            height: 600px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        label{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+        }
+
+        input{
+            margin-left: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-4 offset-lg-4" id="todoBox">
+            <table class="table">
+                <tr>
+                    <td><label for="item1">Sleep</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+                <tr>
+                    <td><label for="item1">Make Reels</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+                <tr>
+                    <td><label for="item1">Workout</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+                <tr>
+                    <td><label for="item1">Jquery</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+                <tr>
+                    <td><label for="item1">Java</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+                <tr>
+                    <td><label for="item1">Exam study</label></td>
+                    <td><input type="checkbox" id="item1"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
